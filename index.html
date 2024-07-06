@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App using JavaScript</title>
+</head>
+<body>
+    <!-- <h1>Welcome to Quiz</h1> -->
+    <div class="alert">Alert</div>
+    <div class="btn startBtn">Start quiz</div>
+    <h1> Welcome to Quiz!!</h1>
+    <button class="btn create-quiz-btn">Create Quiz</button>
+    <div class="container">
+        <h1>Let's play a Quiz Game</h1>
+        <div class="question"></div>
+        <div class="choices"></div>
+        <button class="btn nextBtn">Next</button>
+        <div class="scoreCard"></div>
+        <div class="timer"></div>
+    </div>
+    <div class="create-quiz-page">
+        <h1>Create Your Own Quiz</h1>
+        <form>
+            <label for="question">Question:</label>
+            <input type="text" id="question" name="question"><br><br>
+            <label for="choices">Choices (separate with commas):</label>
+            <input type="text" id="choices" name="choices"><br><br>
+            <label for="answer">Answer:</label>
+            <input type="text" id="answer" name="answer"><br><br>
+            <button class="btn add-question-btn">Add Question</button>
+        </form>
+        <button class="btn save-quiz-btn">Save Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
